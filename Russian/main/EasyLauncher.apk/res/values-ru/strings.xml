@@ -31,7 +31,7 @@
     <string name="apps_customize_widgets_scroll_format">Виджеты: стр. %1$d из %2$d</string>
     <string name="cab_app_selection_text">Выбрано 1 приложение</string>
     <string name="cab_folder_selection_text">Выбрана 1 папка</string>
-    <string name="cab_menu_app_info">О приложении</string>
+    <string name="cab_menu_app_info">О приложений</string>
     <string name="cab_menu_delete_app">Удалить</string>
     <string name="cab_shortcut_selection_text">Выбран 1 ярлык</string>
     <string name="cab_widget_selection_text">Выбран 1 виджет</string>
@@ -82,7 +82,7 @@
     <string name="invalid_hotseat_item">Этот виджет слишком большой для Избранного</string>
     <string name="local_number">Местный номер</string>
     <string name="long_press_widget_to_add">Нажмите и удерживайте для захвата виджета</string>
-    <string name="market">Магзин</string>
+    <string name="market">Магазин</string>
     <string name="menu_item_add_item">Добавить на домашний экран</string>
     <string name="migration_cling_copy_apps">Копирование ярлыков</string>
     <string name="migration_cling_description">Импортировать ярлыки и папки с вашего старого домашнего экрана?</string>

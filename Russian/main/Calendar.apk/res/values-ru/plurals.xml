@@ -29,7 +29,7 @@
         <item quantity="one">Повторить %d раз</item>
     </plurals>
     <plurals name="repeatCountN">
-        <item quantity="other">%d раз</item>
+        <item quantity="other"> %d</item>
         <item quantity="one">1 раз</item>
     </plurals>
 </resources>

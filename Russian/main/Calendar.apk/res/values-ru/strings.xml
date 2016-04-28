@@ -123,8 +123,8 @@
     <string name="hint_description">Описание</string>
     <string name="hint_num_calc_after">Введите не более, чем %d дней после</string>
     <string name="hint_num_calc_before">Введите не более, чем %d дней до начала</string>
-    <string name="hint_what">Содержание</string>
-    <string name="hint_where">Место</string>
+    <string name="hint_what">Название события</string>
+    <string name="hint_where">Место действия</string>
     <string name="load_more_list_footer_default_text">Загрузка</string>
     <string name="loading">Загрузка</string>
     <string name="local_calendar">Системный календарь</string>
@@ -303,8 +303,8 @@
     <string name="ptr_last_refresh_minute">мин. назад</string>
     <string name="ptr_last_refresh_second">сек. назад</string>
     <string name="ptr_pull_refresh">Потянуть вниз для обновления</string>
-    <string name="recurrence_end_date">До</string>
-    <string name="recurrence_end_times">раз</string>
+    <string name="recurrence_end_date">До:</string>
+    <string name="recurrence_end_times">Сколько раз:</string>
     <string name="relex">Отдых</string>
     <string name="reminders_label">Добавить напоминание</string>
     <string name="repeats_end_label">Окончание повтора</string>

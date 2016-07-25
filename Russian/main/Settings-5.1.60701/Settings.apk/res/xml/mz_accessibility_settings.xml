@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/accessibility_settings"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android"
+  xmlns:flyme="http://schemas.android.com/apk/prv/res/flyme">
+    <Preference android:title="@string/quick_wakeup_title" android:key="quick_wakeup" android:summary="@string/quick_wakeup_tips" android:widgetLayout="@flyme:layout/mz_right_arrow" android:fragment="com.meizu.settings.accessibility.MeizuQuickWakeupFragment" />
+    <Preference android:title="@string/smart_voice_wakeup" android:key="smart_voice_wakeup" android:summary="@string/smart_voice_wakeup_tips" android:widgetLayout="@flyme:layout/mz_right_arrow" android:fragment="com.meizu.settings.accessibility.MeizuSmartVoiceWakeupFragment" />
+    <Preference android:title="@string/smart_touch_title" android:key="smart_touch" android:summary="@string/smart_touch_tips" android:widgetLayout="@flyme:layout/mz_right_arrow" android:fragment="com.meizu.settings.accessibility.MeizuSmartTouchFragment" />
+    <Preference android:title="@string/buttom_button_style_title" android:key="bottom_button_style" android:summary="@string/buttom_button_style_summary" android:widgetLayout="@flyme:layout/mz_right_arrow" android:fragment="com.meizu.settings.accessibility.MzBottomButtonStyleFragment" />
+    <ListPreference android:persistent="false" android:entries="@array/home_key_behavior_entries" android:title="@string/home_key_behavior" android:key="home_long_press" android:entryValues="@array/home_key_behavior_values" />
+    <ListPreference android:persistent="false" android:entries="@array/keyboard_back_behavior_entries" android:title="@string/keyboard_back_behavior" android:key="keyboard_back_behavior" android:entryValues="@array/keyboard_back_behavior_values" />
+    <com.meizu.common.preference.SwitchPreference android:persistent="false" android:title="@string/headset_middlekey_wakeup" android:key="headset_middlekey_wakeup" android:summary="@string/headset_middlekey_wakeup_summay" />
+    <com.meizu.common.preference.SwitchPreference android:title="@string/light_feedback_enable_title" android:key="light_feedback" android:defaultValue="true" />
+    <Preference android:title="@string/search_settings_title" android:key="search_settings" android:widgetLayout="@flyme:layout/mz_right_arrow" />
+    <Preference android:title="@string/drive_mode_title" android:key="drive_mode" android:widgetLayout="@flyme:layout/mz_right_arrow" android:fragment="com.meizu.settings.drivemode.MzDriveModeFragment" />
+    <Preference android:title="@string/scheduled_power_onandoff_title" android:key="scheduled_power" android:widgetLayout="@flyme:layout/mz_right_arrow" android:fragment="com.meizu.settings.scheduledpower.ScheduledPowerFragment" />
+    <PreferenceScreen android:title="@string/tts_settings_title" android:key="tts_settings_preference" android:fragment="com.android.settings.tts.TextToSpeechSettings" />
+    <Preference android:title="@string/development_settings_title" android:key="development_settings" android:widgetLayout="@flyme:layout/mz_right_arrow" android:fragment="com.android.settings.DevelopmentSettings" />
+    <com.meizu.common.preference.SwitchPreference android:title="@string/data_collection_title" android:key="data_collection" />
+    <PreferenceCategory android:title="@string/accessibility_services_title" android:key="services_category" />
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/singleCallInfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/photo">
+	<RelativeLayout android:id="@id/name_row" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:textSize="28.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/single_name" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="223.0dip" android:singleLine="true" android:drawablePadding="5.0dip" android:layout_centerHorizontal="true" />
+	</RelativeLayout>
+	<RelativeLayout android:id="@id/single_number_location_field" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mz_caller_info_single_number_top" android:layout_below="@id/name_row" android:layout_centerHorizontal="true">
+		<TextView android:id="@id/single_number" style="@style/mzIncalltextSecondary" />
+		<TextView android:id="@id/single_location" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_toRightOf="@id/single_number" style="@style/mzIncalltextSecondary" />
+	</RelativeLayout>
+	<TextView android:id="@id/single_call_status" android:paddingTop="@dimen/mz_caller_info_single_status_top" android:layout_below="@id/single_number_location_field" android:layout_centerHorizontal="true" style="@style/mzIncalltextSecondary" />
+</RelativeLayout>

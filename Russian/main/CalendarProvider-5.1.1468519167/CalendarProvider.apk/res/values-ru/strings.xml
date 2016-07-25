@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="calendar_storage">Хранилище настроек календаря</string>
+  <string name="upgrade_msg">Обновление данных календаря</string>
+  <string name="calendar_default_name">Календарь по умолчанию</string>
+  <string name="calendar_info">Информация о календаре</string>
+  <string name="calendar_info_error">Ошибка</string>
+  <string name="calendar_info_no_calendars">Нет календаря</string>
+  <string name="calendar_info_events">Мероприятия: %1$d</string>
+  <string name="calendar_info_events_dirty">Мероприятия: %1$d. Несохраненные мероприятия: %2$d</string>
+  <string name="provider_label">Календарь</string>
+  <string name="debug_tool_delete_button">Удалить</string>
+  <string name="debug_tool_start_button">Начать</string>
+  <string name="debug_tool_message">Вам необходимо: 1) сделать копию данных календаря на карту памяти или внешний накопитель и 2) оправить его по эл.почте. Не забудьте удалить копию как только вы получите ответное сообщение или скопируете данные на другое устройство.</string>
+  <string name="debug_tool_email_sender_picker">Выберети программу для отправки файла</string>
+  <string name="debug_tool_email_subject">Инструмент отладки календаря прикреплен</string>
+  <string name="debug_tool_email_body">Прикрепленная база данных календаря содержит мою персональную информацией. Будьте аккуратны!</string>
+  <string name="ownerPackage">com.android.calendar</string>
+</resources>

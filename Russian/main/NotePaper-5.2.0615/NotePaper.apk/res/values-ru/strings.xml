@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Перейти на главный экран</string>
+    <string name="abc_action_bar_up_description">Перейти вверх</string>
+    <string name="abc_action_menu_overflow_description">Другие параметры</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Показать все</string>
+    <string name="abc_activitychooserview_choose_application">Выбрать приложение</string>
+    <string name="abc_searchview_description_clear">Удалить запрос</string>
+    <string name="abc_searchview_description_query">Поисковый запрос</string>
+    <string name="abc_searchview_description_search">Поиск</string>
+    <string name="abc_searchview_description_submit">Отправить запрос</string>
+    <string name="abc_searchview_description_voice">Голосовой поиск</string>
+    <string name="abc_shareactionprovider_share_with">Открыть доступ</string>
+    <string name="abc_shareactionprovider_share_with_application">Открыть доступ пользователю %s</string>
+    <string name="access_encrypt_group">Доступ к зашифрованному</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_change_bg">Изменить фон</string>
+    <string name="action_finished">Завершено</string>
+    <string name="action_insert_pic">Вставить картинку</string>
+    <string name="action_redo">Изменить</string>
+    <string name="action_undo">Отменить</string>
+    <string name="add_new_tag">Новая группа</string>
+    <string name="all_tag">Все</string>
+    <string name="alwaysUse">По умолчанию для этого действия</string>
+    <string name="app_name">Блокнот</string>
+    <string name="back">Назад</string>
+    <string name="cancel">Отмена</string>
+    <string name="convert_to_note">Преобразовать в заметку</string>
+    <string name="copy_fail">Ошибка копирования</string>
+    <string name="create_file_fail">Ошибка создания файла</string>
+    <string name="create_sharing">Начало передачи. Пожалуйста, подождите…</string>
+    <string name="create_time">Создано:</string>
+    <string name="date_time_set">Установить</string>
+    <string name="default_tag_life">Ежедневник</string>
+    <string name="default_tag_temp">Черновик</string>
+    <string name="default_tag_work">Работа</string>
+    <string name="delete">Удалить</string>
+    <string name="delete_group">Удалить группу (заметки не будут удалены)</string>
+    <string name="delete_note">Удаление заметок: %d</string>
+    <string name="delete_one_picture">Удалить картинку?</string>
+    <string name="delete_tag_tip">Заметки не будут удалены</string>
+    <string name="delete_tip">Удалить выбранное?</string>
+    <string name="deleting">Удаление</string>
+    <string name="dialog_no_savs">Не сохранять</string>
+    <string name="dialog_save">Сохранить</string>
+    <string name="dialog_text">Сохранить рисунок?</string>
+    <string name="drag_to_sort">Перетащить для сортировки</string>
+    <string name="dsk_camera">Фото-заметка</string>
+    <string name="dsk_new">Новая заметка</string>
+    <string name="dsk_record">Аудио-заметка</string>
+    <string name="dsk_search">Поиск</string>
+    <string name="edit">Изменить</string>
+    <string name="edit_hint">Текст</string>
+    <string name="edit_title">Название</string>
+    <string name="encrypt_tip">"•  Зашифрованные фотографии и записи могут быть просмотрены с помощью других приложений, поэтому шифрование не рекомендуется для заметок, содержащих изображения или записи
+•  Понижение прошивки или синхронизация с более старой прошивкой сделает зашифрованные записи видимыми всем"</string>
+    <string name="encrypt_tip_title">Советы по шифрованию</string>
+    <string name="exporting">Начало экспорта. Пожалуйста, подождите…</string>
+    <string name="fail_to_save_painting">Ошибка сохранения рисунка!</string>
+    <string name="file_not_available">Ошибка чтения изображений</string>
+    <string name="finish_export">Экспорт завершен</string>
+    <string name="fmt_pre_yesterday">Вчера</string>
+    <string name="folder_already_exsite">Группа уже существует</string>
+    <string name="folder_null_not_save">Пустая группа не может быть сохранена</string>
+    <string name="from">От</string>
+    <string name="gallery">Галерея</string>
+    <string name="group_created">Группа создана</string>
+    <string name="group_encrypt">Зашифрованное</string>
+    <string name="image">Картинка</string>
+    <string name="image_limit_tip">Максимальное количество картинок не должно превышать 10</string>
+    <string name="image_note">Примечание</string>
+    <string name="ime_action_done">Готово</string>
+    <string name="insert_pic_failed">Изображение не может быть вставлено!</string>
+    <string name="insert_pic_ing">Вставить картинку</string>
+    <string name="insert_pic_title">Вставить картинку</string>
+    <string name="last_modified">Последнее изменение:</string>
+    <string name="list">Список</string>
+    <string name="list_checked">Список готового</string>
+    <string name="list_limit">Список не может содержать больше 100 записей</string>
+    <string name="list_unchecked">Список задач</string>
+    <string name="mc_allow">Разрешить</string>
+    <string name="mc_alway_allow">Разрешать всегда</string>
+    <string name="mc_cancel">Отмена</string>
+    <string name="mc_cancel_button_text">Отмена</string>
+    <string name="mc_cancel_collected_message">Убрать из избранного</string>
+    <string name="mc_cancel_praised_message">Отменить отзыв</string>
+    <string name="mc_change_num">Обновить</string>
+    <string name="mc_collected_message">Статус избранного</string>
+    <string name="mc_custom_date_time_gregorian">Григор.</string>
+    <string name="mc_custom_date_time_lunar">Лунный</string>
+    <string name="mc_date_time_day">д</string>
+    <string name="mc_date_time_hour">ч</string>
+    <string name="mc_date_time_min">м</string>
+    <string name="mc_date_time_month">м</string>
+    <string name="mc_date_time_sec">с</string>
+    <string name="mc_date_time_set">Установить</string>
+    <string name="mc_date_time_year">г</string>
+    <string name="mc_description_target_answer">Правильный вариант</string>
+    <string name="mc_description_target_decline">Отклонить</string>
+    <string name="mc_disable">Отключить</string>
+    <string name="mc_every_day">Ежедневно</string>
+    <string name="mc_friday">ПТ</string>
+    <string name="mc_go_Refreshing">Обновить</string>
+    <string name="mc_hour">час</string>
+    <string name="mc_is_Refreshing">Обновление</string>
+    <string name="mc_last_refresh">Последнее обновление</string>
+    <string name="mc_last_refresh_hour">" ч. назад"</string>
+    <string name="mc_last_refresh_just_now">сейчас</string>
+    <string name="mc_last_refresh_minute">мин назад</string>
+    <string name="mc_last_refresh_second">сек. назад</string>
+    <string name="mc_loading_view_text">Загрузка</string>
+    <string name="mc_minute">мин</string>
+    <string name="mc_monday">ПН</string>
+    <string name="mc_never">Единожды</string>
+    <string name="mc_permission_apply">Разрешения</string>
+    <string name="mc_permission_message_content">%1$s требуется %2$s, %3$d разрешений</string>
+    <string name="mc_pm_allow_check_app">Разрешить</string>
+    <string name="mc_pm_allow_dialog_push">Разрешить Push-уведомления</string>
+    <string name="mc_pm_bluetooth">Bluetooth</string>
+    <string name="mc_pm_call">Вызов</string>
+    <string name="mc_pm_call_log">Читать журнал вызовов</string>
+    <string name="mc_pm_camera">Камера (Фото/Видео)</string>
+    <string name="mc_pm_close">Выкл.</string>
+    <string name="mc_pm_contacts">Читать контакты</string>
+    <string name="mc_pm_dialog_push">Всплывающие Push-уведомления</string>
+    <string name="mc_pm_dlg_cancel">Отмена</string>
+    <string name="mc_pm_dlg_ok">ОК</string>
+    <string name="mc_pm_location">Местоположение</string>
+    <string name="mc_pm_network">Передача данных</string>
+    <string name="mc_pm_nfc">NFC</string>
+    <string name="mc_pm_not_allow_check_app">Запретить</string>
+    <string name="mc_pm_not_allow_dialog_push">Отключить</string>
+    <string name="mc_pm_online_intenert">Интернет</string>
+    <string name="mc_pm_open">Открыть</string>
+    <string name="mc_pm_r_mms">Читать MMS</string>
+    <string name="mc_pm_r_sms">Читать SMS</string>
+    <string name="mc_pm_recordaudio_local">Аудиозаписи</string>
+    <string name="mc_pm_recordaudio_phone">Записи разговоров</string>
+    <string name="mc_pm_s_mms">Послать MMS</string>
+    <string name="mc_pm_s_sms">Послать SMS</string>
+    <string name="mc_pm_set_bluetooth_on">Включить Bluetooth</string>
+    <string name="mc_pm_set_gprs_on">Включить передачу данных</string>
+    <string name="mc_pm_set_wifi_on">Включить Wi-Fi</string>
+    <string name="mc_pm_wlan">Wi-Fi</string>
+    <string name="mc_praised_message">Нравится</string>
+    <string name="mc_pull_refresh">Вниз для обновления</string>
+    <string name="mc_reject">Отклонить</string>
+    <string name="mc_saturday">СБ</string>
+    <string name="mc_search">Поиск</string>
+    <string name="mc_search_button_text">Поиск</string>
+    <string name="mc_search_icon">Поиск</string>
+    <string name="mc_search_icon_input_clear">Очистить</string>
+    <string name="mc_search_text">Поиск</string>
+    <string name="mc_second">сек</string>
+    <string name="mc_selectionbutton_all">Все</string>
+    <string name="mc_sunday">ВС</string>
+    <string name="mc_thursday">ЧТ</string>
+    <string name="mc_time_picker_leap">Встав.</string>
+    <string name="mc_tuesday">ВТ</string>
+    <string name="mc_voice_icon">Голосовой поиск</string>
+    <string name="mc_wednesday">СР</string>
+    <string name="mc_weekend">Выходные</string>
+    <string name="mc_working_day">Рабочие дни</string>
+    <string name="mc_yes">ОК</string>
+    <string name="meizu_memo">Заметка Meizu</string>
+    <string name="memory_not_enough">Ошибка, недостаточно памяти</string>
+    <string name="menu_attach">Вложение</string>
+    <string name="menu_cancel_top">Отменить</string>
+    <string name="menu_delete">Удалить</string>
+    <string name="menu_full_screen">На весь экран</string>
+    <string name="menu_insert">Вставить</string>
+    <string name="menu_search">Поиск</string>
+    <string name="menu_template">Переключить шаблон</string>
+    <string name="menu_top">Избранное</string>
+    <string name="more_item_label">Ещё</string>
+    <string name="mz_action_bar_multi_choice_cancel">Отмена</string>
+    <string name="mz_action_bar_multi_choice_select_all">Все</string>
+    <string name="mz_action_bar_multi_choice_select_all_cancel">Нет</string>
+    <string name="mz_action_bar_multi_choice_title">Выбрано %d</string>
+    <string name="mz_date_time_day">д</string>
+    <string name="mz_date_time_hour">ч</string>
+    <string name="mz_date_time_min">м</string>
+    <string name="mz_date_time_month">м</string>
+    <string name="mz_date_time_sec">с</string>
+    <string name="mz_date_time_year">г</string>
+    <string name="mz_network_unavailable_hint">Сеть недоступна. Проверьте настройки сети.</string>
+    <string name="mz_wif_setting_dialog_message">Сеть недоступна. Проверьте настройки сети.</string>
+    <string name="mz_wif_setting_dialog_set">Установить</string>
+    <string name="mzuc_cancel">Отменить</string>
+    <string name="mzuc_cancel_download">Отменить загрузку</string>
+    <string name="mzuc_cancel_install">Отменить установку</string>
+    <string name="mzuc_delete">Удалить</string>
+    <string name="mzuc_download_fail">Ошибка загрузки</string>
+    <string name="mzuc_download_finish_install">Загрузка завершена, нажмите для установки</string>
+    <string name="mzuc_download_finish_s" formatted="false">%s V%s загрузка завершена</string>
+    <string name="mzuc_download_progress_desc_s" formatted="false">Загрузка %s %s</string>
+    <string name="mzuc_downloading">Загрузка</string>
+    <string name="mzuc_file_size_s">Размер: %s</string>
+    <string name="mzuc_found_update_s">Доступно обновление: %s</string>
+    <string name="mzuc_install_cancel_tip">Загрузка отменена</string>
+    <string name="mzuc_install_fail">Ошибка установки</string>
+    <string name="mzuc_install_immediately">Установить сейчас</string>
+    <string name="mzuc_install_later">Установить позже</string>
+    <string name="mzuc_installing">Установка</string>
+    <string name="mzuc_notification_message_s">Что нового: %s</string>
+    <string name="mzuc_ok">OK</string>
+    <string name="mzuc_retry">Повтор</string>
+    <string name="mzuc_skip_version">Пропустить эту версию</string>
+    <string name="mzuc_skip_warn_tip">Если пропустить эту версию, то предложение об установке не последует</string>
+    <string name="mzuc_update_finish">Обновление завершено</string>
+    <string name="mzuc_update_immediately">Обновить сейчас</string>
+    <string name="mzuc_update_msg_title_s" formatted="false">%s V%s</string>
+    <string name="mzuc_update_title_s" formatted="false">%s V%s версия</string>
+    <string name="mzuc_wait_tip">Пожалуйста, подождите</string>
+    <string name="mzuc_warn_later">Напомнить позже</string>
+    <string name="new_note">Быстрая заметка</string>
+    <string name="new_note2">Новая заметка</string>
+    <string name="new_note_photo">Заметка с картинкой</string>
+    <string name="new_note_record">Заметка с аудио</string>
+    <string name="new_tag">Новая группа</string>
+    <string name="new_tag_pop">Группа</string>
+    <string name="no_network">Сеть недоступна</string>
+    <string name="no_network_msg">Пожалуйста, подключитесь к сети и войдите в аккаунт Flyme перед шифрованием заметки</string>
+    <string name="no_note">Нет заметок</string>
+    <string name="no_search_result">Нет результатов</string>
+    <string name="note_create">Создать</string>
+    <string name="note_group">Группа</string>
+    <string name="note_not_exist">Этой заметки не существует</string>
+    <string name="ok">ОК</string>
+    <string name="other">Ещё</string>
+    <string name="other_failure">Операция не выполнена</string>
+    <string name="paint">Рисовалка</string>
+    <string name="painting_saved">Рисунок сохранён</string>
+    <string name="pause">Пауза</string>
+    <string name="play">Играть</string>
+    <string name="record">Запись</string>
+    <string name="record_fail">Ошибка записи</string>
+    <string name="record_limit_tip">Максимальное количество записей не должно превышать 10</string>
+    <string name="record_note">Заметка записи</string>
+    <string name="record_notification_text">Запись (%s)</string>
+    <string name="record_too_short">Запись менее 1 секунды. Отмена.</string>
+    <string name="resume_record">Далее</string>
+    <string name="sample_text_art">"To A Skylark
+Teach me half the gladness
+That thy brain must know
+Such harmonious madness
+From my lips would flow
+The world should listen then, as I am listening now
+——Percy•Bysshe•Shelley"</string>
+    <string name="sample_text_default">"Gatsby believed in the green lights, the orgastic future that year by year recedes before us. It eluded us then, but that no matter—tomorrow we will run faster, strech out our arms farther… And one fine morning—
+
+So we beat on, boats against the current, borne back ceaselessly into the past.
+
+——Francis Scott Key Fitzgerald"</string>
+    <string name="sample_text_manga">"May I be firm and resolute!
+May I be kind, compassionate, and friendly!
+May I be humble, calm, quiet, unruffled and serene!
+May I serve to be perfect! 
+May I be perfect to serve!"</string>
+    <string name="sample_text_poem">"I have scaled the peak and found no shelter in fame's bleak and barren height
+
+Lead me, my Guide before the light fades into the valley of quiet where life's harvest mellows into golden wisdom
+
+——Tagore"</string>
+    <string name="sample_title_default">Великий Гэтсби</string>
+    <string name="save">Сохранить</string>
+    <string name="save_failure">Ошибка сохранения изображения</string>
+    <string name="save_note">Сохранено в заметках</string>
+    <string name="save_to_gallery_fail">Ошибка сохранения в галерею</string>
+    <string name="save_to_gallery_success">Сохранено галерее</string>
+    <string name="save_to_picture">Сохранить картинку в галерее</string>
+    <string name="saving_painting">Сохранение рисунка</string>
+    <string name="set_network">Настройки</string>
+    <string name="share">Передать</string>
+    <string name="share_fail">Ошибка передачи</string>
+    <string name="share_picture">Передать картинку</string>
+    <string name="share_sending">Передача</string>
+    <string name="share_success">Группа уже существует</string>
+    <string name="share_tail">Из Flyme</string>
+    <string name="share_tip_too_long">Слишком долго</string>
+    <string name="share_with_pic">Передать с картинкой</string>
+    <string name="share_with_text">Передать с текстом</string>
+    <string name="space_not_enough">Недостаточно памяти</string>
+    <string name="stop">Стоп</string>
+    <string name="template_name_art">Арт</string>
+    <string name="template_name_default">По умолчанию</string>
+    <string name="template_name_manga">Манга</string>
+    <string name="template_name_night">Ночь</string>
+    <string name="template_name_ocean">Океан</string>
+    <string name="template_name_poem">Поэма</string>
+    <string name="template_switch">Переключение шаблона</string>
+    <string name="tip_delete_record">Удалить запись?</string>
+    <string name="tip_no_file">Файл не найден</string>
+    <string name="toast_tag_limit">Количество групп достигло лимита</string>
+    <string name="top_cancel">Хранение в избранном отменено</string>
+    <string name="top_success">Находится в избранном</string>
+    <string name="unsupported_content">Неподдерживаемый формат</string>
+    <string name="wechat_friend">Друзья WeChat</string>
+    <string name="wechat_moment">Круг друзей</string>
+    <string name="weibo">Weibo</string>
+    <string name="weibo_hint">Напишите что-нибудь</string>
+    <string name="weibo_input">Вы можете ввести %d слов</string>
+    <string name="weibo_title">Новый weibo</string>
+    <string name="widget_preview_small_title">Заметки (4x1)</string>
+    <string name="widget_preview_title">Заметки (4x2)</string>
+    <string name="words_limit">Невозможно сохранить более 20 000 символов</string>
+    <string name="mc_pattern_a_hour_before">1 час назад</string>
+    <string name="mc_pattern_a_minute_before">1 минуту назад</string>
+    <string name="mc_pattern_hour_before">, часов назад</string>
+    <string name="mc_pattern_minute_before">, минут назад</string>
+    <string name="mc_pattern_month_day" formatted="false">%-e/%-m</string>
+    <string name="mc_pattern_month_day_hour_minute" formatted="false">%-e/%-m %H:%M</string>
+    <string name="mc_pattern_month_day_hour_minute_12" formatted="false">%-e/%-m %I:%M %p</string>
+    <string name="mc_pattern_today">Сегодня</string>
+    <string name="mc_pattern_week_month_day_hour_minute" formatted="false">%a %-e/%-m %H:%M</string>
+    <string name="mc_pattern_week_month_day_hour_minute_12" formatted="false">%a %-e/%-m %I:%M %p</string>
+    <string name="mc_pattern_year_month" formatted="false">%-m/%Y</string>
+    <string name="mc_pattern_year_month_day" formatted="false">%-e/%-m/%Y</string>
+    <string name="mc_pattern_year_month_day_hour_minute" formatted="false">%-e/%-m/%Y %H:%M</string>
+    <string name="mc_pattern_year_month_day_hour_minute_12" formatted="false">%-e/%-m/%Y %I:%M %p</string>
+    <string name="mc_pattern_yesterday">Вчера</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_alert_snooze_set">
+        <item quantity="other">Подремать %d минут</item>
+        <item quantity="one">Подремать 1 минуту</item>
+    </plurals>
+</resources>

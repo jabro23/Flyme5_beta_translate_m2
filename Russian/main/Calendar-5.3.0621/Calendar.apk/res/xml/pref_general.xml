@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/pref_title_notice" android:key="pref_key_notice" />
+    <ListPreference android:entries="@array/pref_week_start_labels" android:title="@string/pref_title_default_week_start" android:key="preferences_week_start_day" android:defaultValue="@string/pref_value_default_week_start" android:entryValues="@array/pref_week_start_values" />
+    <ListPreference android:title="@string/pref_title_default_calendar" android:key="preference_defaultCalendar" />
+    <PreferenceCategory android:title="@string/pref_header_extra_info" android:key="pref_key_useful_info">
+        <CheckBoxPreference android:title="@string/pref_title_almanac" android:key="pref_key_almanac" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pref_title_horoscope" android:key="pref_key_horoscope" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_header_visible_calendar" android:key="pref_key_header_visible_calendars">
+        <com.meizu.flyme.calendar.settings.CalCheckBoxPreference android:persistent="false" android:title="@string/preferences_contacts_birthday_title" android:key="preferences_contacts_birthday" />
+    </PreferenceCategory>
+</PreferenceScreen>

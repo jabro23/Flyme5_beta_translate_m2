@@ -1,5 +1,0 @@
-<?xml version='1.0' encoding='utf-8' ?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="#14ffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
-	<TextView android:textSize="14.0sp" android:textColor="@color/incall_call_banner_text_color" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/volume_tip_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/volume_text_margin_left" android:layout_marginRight="@dimen/volume_text_margin_left" android:minHeight="@dimen/volume_key_tip_height" android:text="@string/volume_key_tip_text" />
-	<ImageButton android:id="@id/delete_btn" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/volume_delete_padding" android:src="@drawable/ic_delete" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/cover_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<include layout="@layout/cover_call_card" />
+	<include layout="@layout/cover_incall_bottom_buttons" />
+	<ViewStub android:layout_gravity="bottom" android:id="@id/cover_answerViewStub" android:layout="@layout/cover_answer_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

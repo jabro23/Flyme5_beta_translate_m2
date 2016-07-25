@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/contactPhoto">
+	<RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@id/name_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+		<TextView android:ellipsize="end" android:layout_gravity="center" android:id="@id/single_name" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerHorizontal="true" style="@style/mzInCalltextFirstBig" />
+		<ImageView android:layout_gravity="center" android:id="@id/single_sim_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mz_caller_info_sim_icon_margin" android:layout_marginTop="@dimen/mz_caller_info_sim_icon_margin" android:layout_below="@id/single_name" android:layout_centerHorizontal="true" />
+	</RelativeLayout>
+	<RelativeLayout android:id="@id/single_number_location_field" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mz_caller_info_single_number_top" android:layout_below="@id/name_row" android:layout_centerHorizontal="true">
+		<TextView android:id="@id/single_number" style="@style/mzIncalltextSecondary" />
+		<TextView android:id="@id/single_location" android:layout_toRightOf="@id/single_number" style="@style/mzIncalltextSecondary" />
+	</RelativeLayout>
+	<TextView android:id="@id/message_recording_status" android:visibility="gone" android:text="@string/card_title_message_record" android:layout_below="@id/single_number_location_field" android:layout_centerHorizontal="true" style="@style/mzIncalltextSecondary" />
+	<TextView android:id="@id/single_call_status" android:paddingTop="@dimen/mz_caller_info_single_status_top" android:layout_below="@id/message_recording_status" android:layout_centerHorizontal="true" style="@style/mzIncalltextSecondary" />
+</RelativeLayout>

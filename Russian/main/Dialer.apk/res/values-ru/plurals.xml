@@ -8,6 +8,10 @@
         <item quantity="other">Найдено: %d</item>
         <item quantity="one">Найдено: 1</item>
     </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">Всего: %d</item>
+        <item quantity="one">Всего: 1</item>
+    </plurals>
     <plurals name="listTotalPhoneContacts">
         <item quantity="other">Контакты с номерами телефонов: %d</item>
         <item quantity="one">Контакты с номерами телефона: 1</item>

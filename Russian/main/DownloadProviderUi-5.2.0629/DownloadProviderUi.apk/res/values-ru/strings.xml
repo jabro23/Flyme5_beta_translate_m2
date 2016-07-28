@@ -230,5 +230,5 @@
     <string name="mc_disable">Отключить</string>
     <string name="mc_time_picker_leap">Встав.</string>
     <string name="mc_loading_view_text">Загрузка</string>
-	<string name="no_download_task">Нет задач</string>
+    <string name="no_download_task">Нет задач</string>
 </resources>

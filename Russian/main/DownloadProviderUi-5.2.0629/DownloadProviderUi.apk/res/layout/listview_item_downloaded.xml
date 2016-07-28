@@ -13,6 +13,6 @@
         <TextView android:textSize="@dimen/download_list_item_description_font_size" android:textColor="@color/download_list_item_description_color" android:layout_gravity="right" android:id="@id/complete_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/download_list_item_description_top_margin" android:singleLine="true" android:includeFontPadding="false" />
     </LinearLayout>
     <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minHeight="?android:listPreferredItemHeight" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/mz_anim_checkbox_margin_right">
-        <com.meizu.common.widget.AnimCheckBox android:id="@android:id/checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.DeviceDefault.CompoundButton.CheckButtonlessMultiple.Color.LimeGreen" />
+        <com.meizu.common.widget.AnimCheckBox android:id="@android:id/checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/Widget.DeviceDefault.CompoundButton.CheckButtonlessMultiple.Color.LimeGreen" />
     </LinearLayout>
 </LinearLayout>

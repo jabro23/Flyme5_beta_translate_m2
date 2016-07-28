@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <flyme.support.v7.widget.MzRecyclerView android:id="@android:id/list" android:focusable="true" android:scrollbars="vertical" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:headerDividersEnabled="false" android:footerDividersEnabled="false" app:listSelectors="@drawable/mz_recyclerview_selector" />
+    <com.meizu.common.widget.EmptyView android:id="@android:id/empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:mcTitle="@string/no_downloads" />
+</FrameLayout>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout style="@style/Widget.DeviceDefault.Light.MzPickerLayout"
+<FrameLayout style="@android:style/Widget.DeviceDefault.Light.MzPickerLayout"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <ImageView android:layout_gravity="center" android:id="@id/mz_select_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/mz_picker_box_selected" android:scaleType="fitXY" />
     <LinearLayout android:orientation="horizontal" android:id="@id/mz_column_parent" android:paddingLeft="@dimen/mz_picker_padding_left" android:paddingRight="@dimen/mz_picker_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content">

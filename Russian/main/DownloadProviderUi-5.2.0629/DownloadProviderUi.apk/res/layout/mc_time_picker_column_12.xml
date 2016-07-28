@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="260.0dip" android:layout_height="wrap_content" style="@style/Widget.MeizuCommon.McPickerLayout"
+<FrameLayout android:layout_width="260.0dip" android:layout_height="wrap_content" style="@android:style/Widget.MeizuCommon.McPickerLayout"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout android:orientation="horizontal" android:id="@id/mc_column_parent" android:paddingLeft="30.0dip" android:paddingRight="@dimen/mc_picker_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content">
         <FrameLayout android:id="@id/mc_column3Layout" android:layout_width="60.0dip" android:layout_height="wrap_content" android:layout_weight="0.0">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout style="@style/Widget.MeizuCommon.McPickerLayout"
+<FrameLayout style="@android:style/Widget.MeizuCommon.McPickerLayout"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <ImageView android:layout_gravity="center" android:id="@id/mc_select_box" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/mz_picker_box_selected" android:scaleType="fitXY" />
     <LinearLayout android:orientation="horizontal" android:id="@id/mc_column_parent" android:paddingLeft="@dimen/mc_picker_padding_left" android:paddingRight="@dimen/mc_picker_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content">

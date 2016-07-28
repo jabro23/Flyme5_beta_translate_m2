@@ -2555,14 +2555,6 @@
     <public type="dimen" name="mc_content_toast_content_margin" id="0x7f0b02a2" />
     <public type="dimen" name="mc_content_toast_content_horizontal_padding" id="0x7f0b02a3" />
     <public type="dimen" name="mc_content_toast_ic_margin_right" id="0x7f0b02a4" />
-    <public type="dimen" name="mc_picker_unselected_number_size" id="0x7f0b02a5" />
-    <public type="dimen" name="mc_picker_scroll_item_height" id="0x7f0b02a6" />
-    <public type="dimen" name="mc_seekbar_vertical_thumb_offset" id="0x7f0b02a7" />
-    <public type="dimen" name="mc_seekbar_vertical_padding_top" id="0x7f0b02a8" />
-    <public type="dimen" name="mc_seekbar_vertical_padding_bottom" id="0x7f0b02a9" />
-    <public type="dimen" name="mc_incoming_ringing_outerring_diameter" id="0x7f0b02aa" />
-    <public type="dimen" name="mc_multiwaveview_target_placement_radius" id="0x7f0b02ab" />
-    <public type="dimen" name="mc_multiwaveview_snap_margin" id="0x7f0b02ac" />
     <public type="style" name="DownloadTheme" id="0x7f0c0000" />
     <public type="id" name="item_touch_helper_previous_elevation" id="0x7f0d0000" />
     <public type="id" name="home" id="0x7f0d0001" />

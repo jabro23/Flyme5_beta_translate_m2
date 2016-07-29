@@ -1,0 +1,18 @@
+version: 2.0.3-9402bd-SNAPSHOT
+apkFileName: DownloadProviderUi_norm.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  - 10
+sdkInfo:
+  minSdkVersion: '22'
+  targetSdkVersion: '22'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '85'
+  versionName: 5.2.0629
+sharedLibrary: false
+doNotCompress:
+- arsc

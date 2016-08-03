@@ -379,14 +379,6 @@
 
     return-object v1
 .end method
-    .locals 1
-
-    .prologue
-    .line 51
-    iget-object v0, p0, Lcom/meizu/flyme/calendar/settings/SettingsActivity;->r:Landroid/preference/ListPreference;
-
-    return-object v0
-.end method
 
 .method private a(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
@@ -1017,11 +1009,6 @@
     iget-object v0, p0, Lcom/meizu/flyme/calendar/settings/SettingsActivity;->q:Landroid/preference/ListPreference;
 
     invoke-virtual {v0, p0}, Landroid/preference/ListPreference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
-
-    : .line 132
-    : iget-object v0, p0, Lcom/meizu/flyme/calendar/settings/SettingsActivity;->r:Landroid/preference/ListPreference;
-
-    : invoke-virtual {v0, p0}, Landroid/preference/ListPreference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
 
     .line 133
     iget-object v0, p0, Lcom/meizu/flyme/calendar/settings/SettingsActivity;->s:Lcom/meizu/flyme/calendar/settings/CalCheckBoxPreference;

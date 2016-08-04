@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/download_setting_listitem_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/download_setting_margin" android:layout_marginRight="8.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/download_list_item_title_font_size" android:textColor="@color/download_list_item_title_color" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/download_setting_iteminfo_font" android:textColor="@color/download_list_item_description_color" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/download_list_item_description_top_margin" android:layout_below="@android:id/title" android:layout_alignLeft="@android:id/title" />
+    </RelativeLayout>
+    <com.meizu.common.widget.Switch android:id="@id/switch_button" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/download_setting_margin_switch" />
+    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/download_setting_margin_arrow" android:src="@flyme:drawable/mz_arrow_next_right" />
+    <ImageView android:id="@id/arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginRight="@dimen/download_setting_margin_anchor" android:src="@flyme:drawable/mz_ic_list_more" />
+</LinearLayout>

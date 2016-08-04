@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.media" package="com.android.providers.downloads.ui" platformBuildVersionCode="22" platformBuildVersionName="5.1-1468515195">
+    <uses-permission android:name="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS"/>
+    <uses-permission android:name="android.permission.ACCESS_ALL_DOWNLOADS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="flyme.permission.SYSTEM_UPGRADE_DIALOG"/>
+    <application android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher_download" android:label="@string/app_label" android:name=".DownloadApplication" android:process="android.process.media" android:requiredForAllUsers="true" android:supportsRtl="true" android:theme="@style/DownloadTheme">
+        <meta-data android:name="android.nfc.disable_beam_default" android:value="true"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleInstance" android:name=".OpenFileWithActivity" android:screenOrientation="unspecified" android:theme="@style/Theme.Flyme.Light.Dialog.Alert.Color.LimeGreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="com.meizu.intent.action.INSUFFICENT_SPACE_DIALOG"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTop" android:name=".DownloadActivity" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW_DOWNLOADS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/download_setting" android:name=".DefaultSaveSetting" android:permission="android.permission.ACCESS_DOWNLOAD_MANAGER" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/default_path_to_save" android:name=".DownloadDirectory" android:permission="android.permission.ACCESS_DOWNLOAD_MANAGER" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_MAIN"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

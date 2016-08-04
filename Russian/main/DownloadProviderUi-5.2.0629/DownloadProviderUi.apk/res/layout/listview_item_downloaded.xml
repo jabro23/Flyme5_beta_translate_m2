@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/mz_recyclerview_item_activated" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/download_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_width="@dimen/download_list_item_icon_width" android:layout_height="fill_parent">
+        <ImageView android:id="@id/download_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="@dimen/download_list_complete_item_right_margin">
+        <TextView android:textSize="@dimen/download_list_item_title_font_size" android:textColor="@color/download_list_item_title_color" android:ellipsize="middle" android:id="@id/download_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/download_list_item_description_font_size" android:textColor="@color/download_list_item_description_color" android:ellipsize="start" android:id="@id/complete_path" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/download_list_item_description_top_margin" android:singleLine="true" android:includeFontPadding="false" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/downloaded_info" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/download_list_complete_item_complete_time_font_size" android:textColor="@color/download_list_complete_item_complete_time_color" android:ellipsize="end" android:layout_gravity="right" android:id="@id/complete_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/download_list_item_description_font_size" android:textColor="@color/download_list_item_description_color" android:layout_gravity="right" android:id="@id/complete_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/download_list_item_description_top_margin" android:singleLine="true" android:includeFontPadding="false" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minHeight="?android:listPreferredItemHeight" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/mz_anim_checkbox_margin_right">
+        <com.meizu.common.widget.AnimCheckBox android:id="@android:id/checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/Widget.DeviceDefault.CompoundButton.CheckButtonlessMultiple.Color.LimeGreen" />
+    </LinearLayout>
+</LinearLayout>

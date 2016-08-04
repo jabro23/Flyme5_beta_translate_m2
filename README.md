@@ -10,3 +10,5 @@ Authors
 - Alan626
 - thhor
 - AlexLartsev19
+
+Start translation mod for flyme 5.6.7.19

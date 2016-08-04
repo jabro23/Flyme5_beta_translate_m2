@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/download_setting_listitem_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/download_setting_margin_pic_width" android:layout_height="wrap_content">
+        <ImageView android:id="@id/folder_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/download_list_item_title_font_size" android:textColor="@color/download_list_item_title_color" android:ellipsize="end" android:id="@id/folder_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" />
+        <TextView android:textSize="@dimen/download_setting_iteminfo_font" android:textColor="@color/download_list_item_description_color" android:ellipsize="end" android:id="@id/folder_path" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/download_list_item_description_top_margin" android:maxLines="1" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:id="@id/array_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/download_setting_margin_arrow" android:src="@flyme:drawable/mz_arrow_next_right_warning" />
+</LinearLayout>
